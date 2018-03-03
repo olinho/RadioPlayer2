@@ -1,0 +1,47 @@
+body {
+	/*overflow: hidden;*/
+	/*position: fixed;*/
+	width: 100%;
+	height: 100%;
+	
+}
+
+
+.container {
+	width: 100%;
+	display: inline-flex;
+	padding-bottom: 90px;
+	padding-top: 10px;
+}
+
+
+
+.navbar {
+	background: linear-gradient(to right, black 0%, #333 100%);
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	height: 20%;
+	min-height: 90px;
+	opacity: 0.5;
+	background-repeat: no-repeat;
+	background-blend-mode: color-dodge;
+	bottom: 0px;
+}
+
+.previewPanel {
+	margin: 5px;
+	right: 5px;
+	background: rgba(25, 15, 4, 0.3);
+	height: inherit;
+	display: inline-table;
+	max-width: 450px;
+}
+
+.previewPanel .innerHeading {
+	margin-top: 5px;
+}
+
+.previewPanel .tomorrow, .today {
+	display: none;
+}

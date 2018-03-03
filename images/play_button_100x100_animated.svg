@@ -1,0 +1,11 @@
+<svg id="svgPlay" width="100" height="100" xmlns="http://www.w3.org/2000/svg" class="" style="">
+
+
+ <g id="playIcon">
+ 	<a href="javascript:void(0);">
+	  <title>Грай</title>
+	  <path stroke-width="5" stroke="#aaa" fill-opacity="0.2" fill="#aaaaaa" id="svg_5" d="M4,50A46,46.1 0,1,1 96,50A46,46.1 0,1,1 4,50" class="VeiGpXIs_0"></path>
+	  <path d="m28.400003,81.700005l28.200155,-63.400009l28.199837,63.400009l-56.399992,0z" transform="rotate(90 56.6 50)" stroke-width="1.5" stroke="#333" fill-opacity="null" fill="#bbbbbb" id="svg_1" class="VeiGpXIs_1"></path>
+	</a>
+ </g>
+<style>.VeiGpXIs_0{stroke-dasharray:290 292;stroke-dashoffset:291;}.start .VeiGpXIs_0{animation:VeiGpXIs_draw_0 7200ms linear 0ms infinite,VeiGpXIs_fade 7200ms linear 0ms infinite;}.VeiGpXIs_1{stroke-dasharray:196 198;stroke-dashoffset:197;}.start .VeiGpXIs_1{animation:VeiGpXIs_draw_1 7200ms linear 0ms infinite,VeiGpXIs_fade 7200ms linear 0ms infinite;}@keyframes VeiGpXIs_draw{100%{stroke-dashoffset:0;}}@keyframes VeiGpXIs_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}@keyframes VeiGpXIs_draw_0{11.11111111111111%{stroke-dashoffset: 291}35.95742258652094%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes VeiGpXIs_draw_1{35.95742258652094%{stroke-dashoffset: 197}52.77777777777778%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}</style></svg>

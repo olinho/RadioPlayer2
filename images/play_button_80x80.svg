@@ -1,0 +1,5 @@
+<svg width="79.99996441004035" height="79.99996441004035" xmlns="http://www.w3.org/2000/svg" id='playBtnSvg'>
+ <g id='playIcon'>
+  <ellipse ry="37" rx="37" cy="40" cx="40" stroke-width="4.0" stroke="#aaa" fill-opacity="0.2" fill="#aaaaaa" id="playEllipse"/>
+ </g>
+</svg>

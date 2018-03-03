@@ -1,0 +1,20 @@
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear alternate infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#logoImg:hover {
+	transform: translate(140px, 105px)
+             scale(2 1.5)
+             translate(-140px, -105px);
+}

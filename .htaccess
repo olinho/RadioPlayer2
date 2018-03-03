@@ -1,0 +1,6 @@
+
+# disable caching for this directory 
+
+<IfModule mod_expires.c>
+	ExpiresActive off
+</IfModule>

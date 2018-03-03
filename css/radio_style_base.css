@@ -1,0 +1,379 @@
+body {
+	background-image: url("../images/background_main.jpg");
+	margin: 0;
+	font: 14px/1.5 "Open Sans", Arial, sans-serif;
+}
+
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+.wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+.topnav .channels {
+	right: 10px;
+	position: absolute;
+	padding: 5px;
+	width: 20%;
+	display: none;
+}
+
+.topnav .channels a {
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: rgb(227, 227, 227);
+}
+
+.topnav {
+	width: 100%;
+	min-height: 60px;
+	height: 10%;
+	position: relative;
+	text-align: center;
+}
+
+.topnav .channels {
+	right: 10px;
+	position: absolute;
+	padding: 5px;
+	width: 20%;
+	display: none;
+}
+
+.topnav .upper {
+	background: black;
+	position: relative;
+	opacity: 1;
+	height: 80%;
+	width: inherit;
+	z-index: -2;
+}
+
+.topnav .lower {
+	background: linear-gradient(to top, rgba(140,100,100,0.5), rgba(0,0,0,1) 100%);	background-repeat: no-repeat;
+	background-blend-mode: color-dodge;
+	position: relative;
+	width: inherit;
+	height: 20%;
+	opacity: 0.6;
+	background-repeat: no-repeat;
+	z-index: -2;	
+}
+
+.container .logo {
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	opacity: 0.5;
+}
+
+.svg-frame {
+	height: 80%;
+	width: 80%;
+	position: relative;
+	padding: 5%;
+	display: inline-block;
+}
+
+.navbar .buttons {
+  width: 300px;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.buttons .playButtonWrapper {
+	width: 100px;
+  height: 100%;
+  position: static;
+  float: left;
+}
+
+#slider-horizontal {
+	width: 100px;
+	float: left;
+	margin-top: 40px;
+}
+
+.ui-slider-handle.ui-corner-all.ui-state-default {
+	background: rgb(65, 35, 38);
+	border: 1px solid #d4c631;
+}
+.ui-slider-handle.ui-corner-all.ui-state-default:focus {
+	background: rgb(65,0,0);
+}
+
+.ui-slider-handle.ui-corner-all.ui-state-default:hover {
+	background: red;
+}
+
+.ui-slider-range-min {
+	background: linear-gradient(to right, rgb(18, 3, 3) 0%, rgb(98, 8, 8) 100%);
+}
+
+.ui-widget-content {
+	background: linear-gradient(to left, #b49c9c 0%, #2e330e 100%);
+}
+
+#scheduler {
+	margin-top: 2px;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 250px;
+}
+
+.previewPanel {
+	visibility: hidden;
+}
+
+.previewPanel .heading, .innerHeading {
+	background: rgba(140, 24, 24, 0.5);
+	color: white;
+}
+
+.previewPanel .heading {
+	line-height: 25px;
+	text-align: center;
+}
+
+.previewPanel .innerHeading {
+	padding-left: 5px;
+	text-align: left;
+	border-top: 3px #a03414 solid;
+	margin-bottom: 5px;
+}
+
+table.previewsTable {
+  border-collapse: collapse;
+  color: white;
+}
+
+table.previewsTable tr:first-child td {
+  border-top: 0;
+}
+table.previewsTable tr td:first-child {
+  border-left: 0;
+  padding-right: 5px;
+}
+table.previewsTable tr:last-child td {
+  border-bottom: 0;
+}
+table.previewsTable tr td:nth-child(2) {
+  border-right: 0;
+  width: 100%;
+  padding-left: 5px;
+}
+
+
+a.textCover {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+/* ********* */
+/* SCHEDULER */
+#scheduler .currentSong {
+	background: rgba(0,0,0,0.3);
+	color: rgb(250,250,250);
+	font: "Source Sans Pro",sans-serif,"-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Helvetica Neue","Arial","sans-serif";
+	display: none;
+}
+
+#scheduler .currentProgram {
+	background: rgba(0,0,0,0.3);
+	color: rgb(250,250,250);
+	font: "Source Sans Pro",sans-serif,"-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Helvetica Neue","Arial","sans-serif";
+	display: none;
+}
+
+#scheduler .currentProgram .programName, .programStartTime {
+	color: rgb(250,250,250);
+	font-size: 20px;
+	padding-left: 5px;
+	font: "Source Sans Pro",sans-serif,"-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Helvetica Neue","Arial","sans-serif";
+}
+
+#scheduler .currentProgram .programDetails {
+	display: flex;
+}
+
+
+#scheduler .songPart {
+	display: flex;
+}
+
+#scheduler .songPart .songDescription {
+	width: 100%;
+	padding-right: 5px;
+}
+
+.programDetails .programName {
+	padding-left: 5px;
+}
+.programDetails .programStartTime {
+	padding-right: 5px;
+}
+
+.live {
+	background: red;
+	color: white;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 25px;
+}
+
+.currentSong .songTitle {
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 10px;
+	letter-spacing: 0.3px;
+}
+
+.currentSong .artist {
+  font-size: 15px;
+  font-size: small;
+  letter-spacing: 0px;
+  line-height: 20px;
+  margin-left: 10px;
+}
+
+.playedSongs {
+	background: rgba(20,20,20,0.2);
+	color: rgb(250,250,250, 1);
+	margin-top: 10px;
+	font: "Source Sans Pro",sans-serif,"-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Helvetica Neue","Arial","sans-serif";
+	display: none;
+}
+
+.playedSongs .songsContainer .nextSong{
+	display: flex;
+	margin: 5px;
+	margin-bottom: 15px;
+	border-bottom: 2px #b8ceb8 solid;
+}
+
+.playedSongs .heading {
+	background: rgba(140, 24, 24, 0.5);
+	color: white;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 25px;
+}
+
+.nextSong .time {
+	margin-right: 10px;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nextSong .songDetails .songTitle {
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.3px;
+}
+
+.nextSong .songDetails .artist {
+  font-size: 13px;
+  font-size: small;
+  letter-spacing: 0px;
+  line-height: 20px;
+}
+
+.navbar a {
+	text-align: center;
+	display: block;
+	color: #f2f2f2;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+
+#logoContainer {
+	width: 100%;
+	position: absolute;
+	display: block;
+	align-items: center;
+	height: 100%;
+	z-index: -1;
+	margin-left: 5px;
+}
+
+#lemFmLogo {
+	width: 200px;
+	min-width: 200px;
+	display: block;
+	margin-top: 3px;
+}
+
+#kropkaSvg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+
+#radio-name {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	height: 100px;
+	width: 200px;
+}
+#radio-name-lem-part {
+	font-style: italic;
+	color: #FF0000;
+	padding: 0px;
+	font-size: 3.0em;
+	font-weight: bold;
+}
+#radio-name-fm-part {
+	padding-left: 0px;
+	color: black;
+	font-size: 30px;
+	text-align: left;
+}
+
+[class*="col-"] {
+	float: left;
+	padding: 5px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} 
+
+/*SVG*/
+
+.path {
+	animation: dash 5s linear;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 10;
+  }
+}
